@@ -12,6 +12,29 @@
   font-family: "Audiowide", sans-serif;
   color: rgb(48, 65, 224);
  }
+ .glow {
+  font-family: "Audiowide", sans-serif;
+  font-size: 80px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.glow2 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
+}
 
 </style>
 
@@ -19,35 +42,42 @@
 </head>
 
 <body>
-    <div class="w3-row w3-padding w3-black">
+  
+    <div class="w3-row w3-padding w3-black w3-opacity-min">
       <div class="w3-col s3">
-        <a href="#" class="w3-button w3-block w3-black">HOME</a>
+        <a href="#" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOME</a>
       </div>
       <div class="w3-col s3">
-        <a href="#about" class="w3-button w3-block w3-black">INTERESTS</a>
+        <a href="#about" class="w3-button w3-block w3-black glow2 w3-hover-purple">INTERESTS</a>
       </div>
       <div class="w3-col s3">
-        <a href="#menu" class="w3-button w3-block w3-black">HOBBIES</a>
+        <a href="#menu" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOBBIES</a>
       </div>
       <div class="w3-col s3">
-        <a href="#where" class="w3-button w3-block w3-black">IMAGES</a>
+        <a href="#where" class="w3-button w3-block w3-black glow2 w3-hover-purple">IMAGES</a>
       </div>
     </div>
   </div>
   <div style="text-align: center;">
-    <h1 class="a">My Profile</h1>
+    <h1 class="glow">My Profile</h1>
     <img src="https://cdn.discordapp.com/attachments/799514529188675585/1060126965912309760/image.png" style="width:300px;height:300px; border-radius: 50%;" >
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>My name is Jeff Enzo Espiritu and I am a software developer.</b></span>
+    <h1 class="glow"><h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>My name is Jeff Enzo Espiritu and I am a software developer.</b></span></h1>
 
 <p style="border:orange;border-width:5px;border-style:solid;">I am 20 years old</p>
 <style>
-    body {background-repeat: no-repeat;background-size: cover; background-image: url("guwa.gif")
-        
+    body {
+      background-repeat: no-repeat;background-size: cover; background-image: url("guwa.gif")
+        }
+        p.third {
+  background: rgba(19, 87, 143, 0.6);
 }
- 
 </style>
-      
+<div class="w3-panel w3-padding-large w3-blue w3-margin-right w3-margin-left w3-round-large">
+  <h4>I am the storm</h4>
+  <p class="third">I am the storm that is approaching.</p>
   </div>
+      
+  
 
 </body>
 </html>
