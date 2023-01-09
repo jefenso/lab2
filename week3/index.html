@@ -1,178 +1,83 @@
 <!DOCTYPE html>
-<html lang="en-us">
- 
-<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="UTF-8"> 
- scheme://https.jefenso.com/html/index.html
+<html>
 <head>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
-  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-<title>test</title>
-<link rel="icon" type="image/x-icon" href="https://preview.redd.it/6rw7eh70rhf81.png?width=3000&format=png&auto=webp&s=8c02c08787852cd9a78231edbe883e6f8a45a796">
-</head>
-<body>
-<h1>Test</h1>
- <p>I will display &euro;</p>
-<p>
-<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
- <b>This text is bold</b>
-</p>
-
- <div style="background-color:black;color:white;padding:20px;">
-  <h2>London</h2>
-  <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants . &copy;</p>
-</div> 
-<p>My mother has <span style="color:blue;font-weight:bold;">blue</span> eyes and my father has <span style="color:darkolivegreen;font-weight:bold;">dark green</span> eyes.</p>
- <h1 style="background-color:powderblue;">This is a heading</h1>
-<p style="background-color:tomato;">This is a paragraph.</p>
-
-  <p> <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> </p>
-  <style>
-    body {
-        background-image: url("https://media.tenor.com/1y8zDc-ll-EAAAAd/3d-saul-saul-goodman.gif")
-} </style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-.note {
-  font-size: 120%;color: red;
+ h1.a {
+  font-family: "Audiowide", sans-serif;
+  color: beige;
 }
-#myHeader {
-  background-color: lightblue;
-  color: black;
-  padding: 40px;
+ h2.b {
+  font-family: "Audiowide", sans-serif;
+  color: rgb(48, 65, 224);
+ }
+ .glow {
+  font-family: "Audiowide", sans-serif;
+  font-size: 80px;
+  color: #fff;
   text-align: center;
-} 
-</style>
-<h1>My <span class="note">Important</span> Heading</h1>
-<p>This is some <span class="note">important</span> text.</p>
-<h1 id="myHeader">My Header</h1>
- <img src="/lab2/week3/CEASE.png" alt="Mountain"> 
-<article>
-<h2>Google Chrome</h2>
-<p>Google Chrome is a web browser developed by Google, released in 2008. Chrome is the world's most popular web browser today!</p>
-</article>
-
-<style>
-  p {
-  border: 2px solid red;
-  border-radius: 5px;
-  margin: 25px 50px 75px 100px;
+  animation: glow 1s ease-in-out infinite alternate;
 }
-  body {
-  background-color: lightblue;
+.glow2 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 20px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
 }
-  
-  h1 {
-    color: maroon;
-    margin-left: 40px;
-    padding: 25px;
-    font-family: "Trirong", serif;
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
   }
-  div {
-  height: 100px;
-  background-color: powderblue;
-  width: 320px;
-  padding: 10px;
-  border: 5px solid gray;
-  margin: 0;
-}
-a:link {
-  color: red;
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+  }
 }
 
-/* visited link */
-a:visited {
-  color: green;
-}
+</style>
 
-/* mouse over link */
-a:hover {
-  color: hotpink;
-}
+  <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/0/05/Flame-Chasers%27_Triumph.png/revision/latest/scale-to-width-down/256?cb=20220916154731">
+</head>
 
-/* selected link */
-a:active {
-  color: blue;
-}
-p.ex1 {
-  border: 2px solid black;
-  outline-style: solid;
-  outline-color: red;
-  text-shadow: 2px 2px 5px red;
-}
+<body>
+  
+    <div class="w3-row w3-padding w3-black w3-opacity-min">
+      <div class="w3-col s3">
+        <a href="#" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOME</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#about" class="w3-button w3-block w3-black glow2 w3-hover-purple">INTERESTS</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#menu" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOBBIES</a>
+      </div>
+      <div class="w3-col s3">
+        <a href="#where" class="w3-button w3-block w3-black glow2 w3-hover-purple">IMAGES</a>
+      </div>
+    </div>
+  </div>
+  <div style="text-align: center;">
+    <h1 class="glow">My Profile</h1>
+    <img src="https://cdn.discordapp.com/attachments/799514529188675585/1060126965912309760/image.png" style="width:300px;height:300px; border-radius: 50%;" >
+    <h1 class="glow"><h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>My name is Jeff Enzo Espiritu and I am a software developer.</b></span></h1>
 
-/* This is
-a multi-line
-comment */
-ol {
-  background: #ff9999;
-  padding: 20px;
+<p style="border:orange;border-width:5px;border-style:solid;">I am 20 years old</p>
+<style>
+    body {
+      background-repeat: no-repeat;background-size: cover; background-image: url("guwa.gif")
+        }
+        p.third {
+  background: rgba(19, 87, 143, 0.6);
 }
+</style>
+<div class="w3-panel w3-padding-large w3-blue w3-margin-right w3-margin-left w3-round-large">
+  <h4>I am the storm</h4>
+  <p class="third">I am the storm that is approaching2.</p>
+  </div>
+      
+  
 
-ul {
-  background: #3399ff;
-  padding: 20px;
-}
-
-ol li {
-  background: #ffe5e5;
-  color: darkred;
-  padding: 5px;
-  margin-left: 35px;
-}
-
-ul li {
-  background: #cce5ff;
-  color: darkblue;
-  margin: 5px;
-}
-table, th, td {
-  border: 1px solid;
-}
-
-table {
-  width: 100%;
-}
-  </style>
-<p id="para1">Hello World!</p>
-<h1 style="background-color:DodgerBlue;">Hello World</h1>
-<p style="background-color:Tomato;">Lorem ipsum...</p>
-<h1 style="color:Tomato;">Hello World</h1>
-<p style="color:DodgerBlue;">Lorem ipsum...</p>
-<p style="color:MediumSeaGreen;">Ut wisi enim...</p>
-<h1 style="border:2px solid Tomato;">Hello World</h1>
-<h1 style="border:2px solid DodgerBlue;">Hello World</h1>
-<h1 style="border:2px solid Violet;">Hello World</h1>
-<h1 style="background-color:rgb(255, 99, 71);">...</h1>
-<h1 style="background-color:#ff6347;">...</h1>
-<h1 style="background-color:hsl(9, 100%, 64%);">...</h1>
-<h1 style="background-color:rgba(255, 99, 71, 0.5);">...</h1>
-<h1 style="background-color:hsla(9, 100%, 64%, 0.5);">...</h1>
-<ol>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ol>
-
-<ul>
-  <li>Coffee</li>
-  <li>Tea</li>
-  <li>Coca Cola</li>
-</ul>
-<p class="ex1">A solid red outline.</p>
-<p><b><a href="default.asp" target="_blank">This is a link</a></b></p>
-<i class="fas fa-car"></i>
-<table>
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th>
-  </tr>
-  <tr>
-    <td>Peter</td>
-    <td>Griffin</td>
-  </tr>
-  <tr>
-    <td>Lois</td>
-    <td>Griffin</td>
-  </tr>
-</table>
 </body>
 </html>
