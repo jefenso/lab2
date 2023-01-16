@@ -36,6 +36,9 @@
   }
 }
 
+#image {
+  display: none;
+  }
 </style>
 
   <link rel="icon" type="image/x-icon" href="https://static.wikia.nocookie.net/honkaiimpact3_gamepedia_en/images/0/05/Flame-Chasers%27_Triumph.png/revision/latest/scale-to-width-down/256?cb=20220916154731">
@@ -70,6 +73,20 @@
   background: rgba(19, 87, 143, 0.6);
 }
 </style>
+<img id="image" src="CEASE.png" alt="GFG image" />
+</div>
+
+<button type="button"
+onclick="show()" id="btnID">
+Show Image
+</button>
+
+<script>
+function show() {
+document.getElementById('image').style.display = "block";
+document.getElementById('btnID').style.display = "none";
+}
+</script>
 
       
   
