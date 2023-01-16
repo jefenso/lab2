@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-flat.css">
 <style>
  h1.a {
   font-family: "Audiowide", sans-serif;
@@ -22,6 +23,13 @@
 .glow2 {
   font-family: "Audiowide", sans-serif;
   font-size: 20px;
+  color: #fff;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.glow3 {
+  font-family: "Audiowide", sans-serif;
+  font-size: 40px;
   color: #fff;
   text-align: center;
   animation: glow 1s ease-in-out infinite alternate;
@@ -63,21 +71,41 @@
     <img src="https://cdn.discordapp.com/attachments/799514529188675585/1060126965912309760/image.png" style="width:300px;height:300px; border-radius: 50%;" >
     <h1 class="glow"><h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>My name is Jeff Enzo Espiritu and I am a software developer.</b></span></h1>
 
-<p style="border:orange;border-width:5px;border-style:solid;">I am 20 years old</p>
+
 <style>
     body {
-      background-repeat: no-repeat;background-size: cover; background-image: url("guwa.gif")
+      background-repeat: no-repeat;background-size: cover; background-image: url("guwa.gif");
+      background-attachment: fixed;
+      
         }
         p.third {
-  background: rgba(19, 87, 143, 0.6);
+        background: rgba(255, 23, 104, 0.6);
+      }
+      p.third2{
+
+      }
+
+.container{
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 5vh 0vh 5vh 0vh;
+
+}
+#grad1 {
+  height: 200px;
+  background-color: red; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, red , yellow);
 }
 </style>
-<div class="w3-panel w3-padding-large w3-blue w3-margin-right w3-margin-left w3-round-large">
-  <h4>I am the storm</h4>
-  <p class="third">I am the storm that is approaching2.</p>
-  </div>
+<div class=".container">
+  <h3 class="glow3">About me</h3>
+</div>
 
-  <div class="w3-panel w3-padding-large w3-blue w3-margin-right w3-margin-left w3-round-large">
+  <p class="third">I am the storm that is approaching2.</p>
+  
+
+  <div class="w3-panel w3-padding-large w3-flat-wisteria w3-margin-right w3-margin-left w3-margin-right w3-margin-right w3-round-large">
     <h1 class="glow">Resources</h1>
     <p>https://www.w3resource.com/css/CSS-tutorials.php</p>
     <p>https://www.w3schools.com/css/default.asp</p>
@@ -88,9 +116,16 @@
 
     <p id="demo"></p>
 
+
+
+    <button onclick="myFunction()">Try it</button>
+
     <script>
       function myFunction() {
         document.getElementById("demo").innerHTML = "I am the storm";
+      }
+      function myFunction() {
+        alert("I am the storm");
       }
       </script>  
 
