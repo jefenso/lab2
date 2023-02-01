@@ -84,6 +84,8 @@
 </style>
   </div>
   <p id="demo"></p>
+  <p id="demo2"></p>
+  <p id="demo3"></p>
 
   <script>
   class Car {
@@ -96,6 +98,16 @@
   const myCar = new Car("Honda Civic", 2015);
   document.getElementById("demo").innerHTML =
   myCar.name + " " + myCar.year;
+
+
+  document.getElementById("demo2").innerHTML =
+"The temperature is " + toCelsius(77) + " Celsius";
+
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
+
+
   </script>
 
 </body>
