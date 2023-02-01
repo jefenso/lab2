@@ -86,6 +86,7 @@
   <p id="demo"></p>
   <p id="demo2"></p>
   <p id="demo3"></p>
+  <p id="demo4"></p>
 
   <script>
   class Car {
@@ -112,6 +113,11 @@ const person = {firstName:"Motoaki", lastName:"Tanigo", age:49, eyeColor:"brown"
 // Display some data from the object:
 document.getElementById("demo3").innerHTML =
 person.firstName + " is " + person.age + " years old.";
+
+import message from "./message.js";
+
+document.getElementById("demo4").innerHTML = message();
+
   </script>
 
 </body>
