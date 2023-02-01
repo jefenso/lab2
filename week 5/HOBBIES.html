@@ -87,6 +87,10 @@
   <p id="demo2"></p>
   <p id="demo3"></p>
   <p id="demo4"></p>
+  
+  <p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
+
+  <p id="demo5"></p>
 
   <script>
   class Car {
@@ -117,6 +121,12 @@ person.firstName + " is " + person.age + " years old.";
 import message from "./message.js";
 
 document.getElementById("demo4").innerHTML = message();
+
+setTimeout(myFunctions, 3000);
+
+function myFunctions() {
+  document.getElementById("demo5").innerHTML = "I AM THE STORM";
+}
 
   </script>
 
