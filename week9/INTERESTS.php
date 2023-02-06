@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE php>
+<php>
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -53,16 +53,16 @@
   
     <div class="w3-row w3-padding w3-black w3-opacity-min">
       <div class="w3-col s3">
-        <a href="index.html" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOME</a>
+        <a href="index.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOME</a>
       </div>
       <div class="w3-col s3">
-        <a href="INTERESTS.html" class="w3-button w3-block w3-black glow2 w3-hover-purple">INTERESTS</a>
+        <a href="INTERESTS.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">INTERESTS</a>
       </div>
       <div class="w3-col s3">
-        <a href="HOBBIES.html" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOBBIES</a>
+        <a href="HOBBIES.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOBBIES</a>
       </div>
       <div class="w3-col s3">
-        <a href="GALLERY.html" class="w3-button w3-block w3-black glow2 w3-hover-purple">IMAGES</a>
+        <a href="GALLERY.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">IMAGES</a>
       </div>
     </div>
   </div>
@@ -101,4 +101,4 @@ document.getElementById('btnID').style.display = "none";
 
 
 </body>
-</html>
+</php>

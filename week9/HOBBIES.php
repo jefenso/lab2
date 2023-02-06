@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE php>
+<php>
 <head>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -53,24 +53,20 @@
   
     <div class="w3-row w3-padding w3-black w3-opacity-min">
       <div class="w3-col s3">
-        <a href="index.html" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOME</a>
+        <a href="index.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOME</a>
       </div>
       <div class="w3-col s3">
-        <a href="INTERESTS.html" class="w3-button w3-block w3-black glow2 w3-hover-purple">INTERESTS</a>
+        <a href="INTERESTS.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">INTERESTS</a>
       </div>
       <div class="w3-col s3">
-        <a href="HOBBIES.html" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOBBIES</a>
+        <a href="HOBBIES.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOBBIES</a>
       </div>
       <div class="w3-col s3">
-        <a href="GALLERY.html" class="w3-button w3-block w3-black glow2 w3-hover-purple">IMAGES</a>
+        <a href="GALLERY.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">IMAGES</a>
       </div>
     </div>
   </div>
   <div style="text-align: center;">
-    <h1 class="glow">My Profile</h1>
-    <img src="https://cdn.discordapp.com/attachments/799514529188675585/1060126965912309760/image.png" style="width:300px;height:300px; border-radius: 50%;" >
-    <h1 class="glow"><h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>My name is Jeff Enzo Espiritu and I am a software developer.</b></span></h1>
-
 
 <style>
     body {
@@ -82,51 +78,58 @@
         background: rgba(255, 23, 104, 0.6);
       }
   
-
-.container{
-  position: relative;
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 5vh 0vh 5vh 0vh;
-
-}
-#grad1 {
-  height: 200px;
-  background-color: red; /* For browsers that do not support gradients */
-  background-image: linear-gradient(to right, red , yellow);
-}
-
+      #image {
+  display: none;
+  }
 </style>
-<div class=".container">
-  <h3 class="glow3">About me</h3>
-</div>
+  </div>
+  <p id="demo"></p>
+  <p id="demo2"></p>
+  <p id="demo3"></p>
+  <p id="demo4"></p>
 
-  <p class="third">I am the storm that is approaching2.</p>
+  <script>
+  class Car {
+    constructor(name, year) {
+      this.name = name;
+      this.year = year;
+    }
+  }
   
-
-  <div class="w3-panel w3-padding-large w3-flat-wisteria w3-margin-right w3-margin-left w3-round-large">
-    <h1 class="glow">Resources</h1>
-    <p>https://www.w3resource.com/css/CSS-tutorials.php</p>
-    <p>https://www.w3schools.com/css/default.asp</p>
-    <p>https://www.w3schools.com/w3css/default.asp</p>
-    <p>https://www.w3schools.com/bootstrap4/default.asp</p>
-    </div>
-    <button onclick="myFunction()">Click me for a surprise</button>
-
-    <p id="demo"></p>
+  const myCar = new Car("Honda Civic", 2015);
+  document.getElementById("demo").innerphp =
+  myCar.name + " " + myCar.year;
 
 
+  document.getElementById("demo2").innerphp =
+"The temperature is " + toCelsius(77) + " Celsius";
 
-    <button onclick="myFunction()">Try it</button>
+function toCelsius(fahrenheit) {
+  return (5/9) * (fahrenheit-32);
+} 
 
-    <script>
-      function myFunction() {
-        document.getElementById("demo").innerHTML = "I am the storm";
-      }
-      function myFunction() {
-        alert("I am the storm");
-      }
-      </script>  
+const person = {firstName:"Motoaki", lastName:"Tanigo", age:49, eyeColor:"brown"};
+
+// Display some data from the object:
+document.getElementById("demo3").innerphp =
+person.firstName + " is " + person.age + " years old.";
+
+
+
+document.getElementById("demo4").innerphp = message();
+
+  </script>
+<p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
+
+<h1 id="demo6" style="visibility: hidden;"> I AM THE STORM</h1>
+
+<script>
+setTimeout(myFunction, 3000);
+
+function myFunction() {
+  document.getElementById("demo6").style.visibility="visible";
+}
+</script>
 
 </body>
-</html>
+</php>
