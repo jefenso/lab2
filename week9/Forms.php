@@ -82,54 +82,9 @@
   display: none;
   }
 </style>
-  </div>
-  <p id="demo"></p>
-  <p id="demo2"></p>
-  <p id="demo3"></p>
-  <p id="demo4"></p>
-
-  <script>
-  class Car {
-    constructor(name, year) {
-      this.name = name;
-      this.year = year;
-    }
-  }
-  
-  const myCar = new Car("Honda Civic", 2015);
-  document.getElementById("demo").innerphp =
-  myCar.name + " " + myCar.year;
-
-
-  document.getElementById("demo2").innerphp =
-"The temperature is " + toCelsius(77) + " Celsius";
-
-function toCelsius(fahrenheit) {
-  return (5/9) * (fahrenheit-32);
-} 
-
-const person = {firstName:"Motoaki", lastName:"Tanigo", age:49, eyeColor:"brown"};
-
-// Display some data from the object:
-document.getElementById("demo3").innerphp =
-person.firstName + " is " + person.age + " years old.";
 
 
 
-document.getElementById("demo4").innerphp = message();
-
-  </script>
-<p>Wait 3 seconds (3000 milliseconds) for this page to change.</p>
-
-<h1 id="demo6" style="visibility: hidden;"> I AM THE STORM</h1>
-
-<script>
-setTimeout(myFunction, 3000);
-
-function myFunction() {
-  document.getElementById("demo6").style.visibility="visible";
-}
-</script>
 
 </body>
 </php>
