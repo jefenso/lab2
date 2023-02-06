@@ -131,5 +131,9 @@ function myFunction() {
 }
 </script>
 
+<div class="w3-col s3">
+        <a href="INTERESTS.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">INTERESTS</a>
+      </div>
+
 </body>
 </php>
