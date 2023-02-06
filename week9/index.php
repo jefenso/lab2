@@ -62,6 +62,9 @@
         <a href="HOBBIES.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">HOBBIES</a>
       </div>
       <div class="w3-col s3">
+        <a href="Forms.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">FORMS</a>
+      </div>
+      <div class="w3-col s3">
         <a href="GALLERY.php" class="w3-button w3-block w3-black glow2 w3-hover-purple">IMAGES</a>
       </div>
     </div>
@@ -128,5 +131,6 @@
       }
       </script>  
 
+<
 </body>
 </php>
